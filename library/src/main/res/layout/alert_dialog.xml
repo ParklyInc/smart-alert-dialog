@@ -109,11 +109,11 @@
         android:orientation="vertical"
         android:visibility="gone">
 
-        <com.pnikosis.materialishprogress.ProgressWheel
+        <ProgressBar
             android:id="@+id/progressWheel"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            wheel:progressIndeterminate="true"
+            style="?android:attr/progressBarStyleLarge"
             android:layout_gravity="center" />
     </FrameLayout>
 

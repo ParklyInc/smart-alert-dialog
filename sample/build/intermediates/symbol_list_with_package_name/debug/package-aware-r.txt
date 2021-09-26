@@ -83,10 +83,7 @@ attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
 attr backgroundTintMode
-attr barColor
 attr barLength
-attr barSpinCycleTime
-attr barWidth
 attr borderlessButtonStyle
 attr buttonBarButtonStyle
 attr buttonBarNegativeButtonStyle
@@ -103,7 +100,6 @@ attr buttonTint
 attr buttonTintMode
 attr checkboxStyle
 attr checkedTextViewStyle
-attr circleRadius
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -155,7 +151,6 @@ attr editTextColor
 attr editTextStyle
 attr elevation
 attr expandActivityOverflowButtonDrawable
-attr fillRadius
 attr firstBaselineToTopHeight
 attr font
 attr fontFamily
@@ -228,15 +223,12 @@ attr popupWindowStyle
 attr preserveIconSpacing
 attr progressBarPadding
 attr progressBarStyle
-attr progressIndeterminate
 attr queryBackground
 attr queryHint
 attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
-attr rimColor
-attr rimWidth
 attr rollType
 attr searchHintIcon
 attr searchIcon
@@ -250,7 +242,6 @@ attr showText
 attr showTitle
 attr singleChoiceItemLayout
 attr spinBars
-attr spinSpeed
 attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
@@ -1345,7 +1336,6 @@ styleable MenuItem android_icon android_enabled android_id android_checked andro
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
-styleable ProgressWheel barColor barSpinCycleTime barWidth circleRadius fillRadius progressIndeterminate rimColor rimWidth spinSpeed
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable Rotate3dAnimation fromDeg pivotX pivotY rollType toDeg
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon

@@ -15,9 +15,10 @@ import android.view.animation.Transformation;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.pnikosis.materialishprogress.ProgressWheel;
+//import com.pnikosis.materialishprogress.ProgressWheel;
 
 import java.util.List;
 
@@ -50,7 +51,7 @@ public class SmartAlertDialog extends Dialog implements View.OnClickListener {
     private ImageView mCustomImage;
     private Button mConfirmButton;
     private Button mCancelButton;
-    private ProgressHelper mProgressHelper;
+    private ProgressBar mProgressHelper;
     private FrameLayout mWarningFrame;
     private OnSmartClickListener mCancelClickListener;
     private OnSmartClickListener mConfirmClickListener;
@@ -75,7 +76,7 @@ public class SmartAlertDialog extends Dialog implements View.OnClickListener {
         super(context, R.style.alert_dialog);
         setCancelable(true);
         setCanceledOnTouchOutside(false);
-        mProgressHelper = new ProgressHelper(context);
+        //mProgressHelper = new ProgressBarHandler(context);
         mAlertType = alertType;
         mErrorInAnim = OptAnimationLoader.loadAnimation(getContext(), R.anim.error_frame_in);
         mErrorXInAnim = (AnimationSet)OptAnimationLoader.loadAnimation(getContext(), R.anim.error_x_in);
@@ -153,7 +154,8 @@ public class SmartAlertDialog extends Dialog implements View.OnClickListener {
         mWarningFrame = (FrameLayout)findViewById(R.id.warning_frame);
         mConfirmButton = (Button)findViewById(R.id.confirm_button);
         mCancelButton = (Button)findViewById(R.id.cancel_button);
-        mProgressHelper.setProgressWheel((ProgressWheel)findViewById(R.id.progressWheel));
+        mProgressHelper = (ProgressBar) findViewById(R.id.progressWheel);
+        //mProgressHelper.setProgressWheel((ProgressWheel)findViewById(R.id.progressWheel));
         mConfirmButton.setOnClickListener(this);
         mCancelButton.setOnClickListener(this);
 
@@ -376,7 +378,7 @@ public class SmartAlertDialog extends Dialog implements View.OnClickListener {
         }
     }
 
-    public ProgressHelper getProgressHelper () {
+    public ProgressBar getProgressHelper () {
         return mProgressHelper;
     }
 }

@@ -1,18 +1,18 @@
+com/parkly/SmartAlert/ProgressBarHandler.java
+ com.parkly.SmartAlert.ProgressBarHandler
 com/parkly/SmartAlert/BuildConfig.java
  com.parkly.SmartAlert.BuildConfig
-com/parkly/SmartAlert/OptAnimationLoader.java
- com.parkly.SmartAlert.OptAnimationLoader
 com/parkly/SmartAlert/SmartAlertDialog.java
  com.parkly.SmartAlert.SmartAlertDialog
  com.parkly.SmartAlert.SmartAlertDialog$1
  com.parkly.SmartAlert.SmartAlertDialog$1$1
  com.parkly.SmartAlert.SmartAlertDialog$2
  com.parkly.SmartAlert.SmartAlertDialog$OnSmartClickListener
-com/parkly/SmartAlert/ProgressHelper.java
- com.parkly.SmartAlert.ProgressHelper
 com/parkly/SmartAlert/Rotate3dAnimation.java
  com.parkly.SmartAlert.Rotate3dAnimation
  com.parkly.SmartAlert.Rotate3dAnimation$Description
 com/parkly/SmartAlert/SuccessTickView.java
  com.parkly.SmartAlert.SuccessTickView
  com.parkly.SmartAlert.SuccessTickView$1
+com/parkly/SmartAlert/OptAnimationLoader.java
+ com.parkly.SmartAlert.OptAnimationLoader

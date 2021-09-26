@@ -131,25 +131,35 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
                         i++;
                         switch (i){
                             case 0:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.blue_btn_bg_color));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.blue_btn_bg_color), android.graphics.PorterDuff.Mode.MULTIPLY);
                                 break;
                             case 1:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.material_deep_teal_50));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.material_deep_teal_50), android.graphics.PorterDuff.Mode.MULTIPLY);
                                 break;
                             case 2:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.success_stroke_color));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.success_stroke_color), android.graphics.PorterDuff.Mode.MULTIPLY);
+
+                                //pDialog.getProgressHelper().setBackgroundColor(getResources().getColor(R.color.success_stroke_color));
                                 break;
                             case 3:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.material_deep_teal_20));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.material_deep_teal_20), android.graphics.PorterDuff.Mode.MULTIPLY);
+
+                               // pDialog.getProgressHelper().setBackgroundColor(getResources().getColor(R.color.material_deep_teal_20));
                                 break;
                             case 4:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.material_blue_grey_80));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.material_blue_grey_80), android.graphics.PorterDuff.Mode.MULTIPLY);
+
+                                //pDialog.getProgressHelper().setBackgroundColor(getResources().getColor(R.color.material_blue_grey_80));
                                 break;
                             case 5:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.warning_stroke_color));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.warning_stroke_color), android.graphics.PorterDuff.Mode.MULTIPLY);
+
+                                //pDialog.getProgressHelper().setBackgroundColor(getResources().getColor(R.color.warning_stroke_color));
                                 break;
                             case 6:
-                                pDialog.getProgressHelper().setBarColor(getResources().getColor(R.color.success_stroke_color));
+                                pDialog.getProgressHelper().getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.success_stroke_color), android.graphics.PorterDuff.Mode.MULTIPLY);
+
+                                //pDialog.getProgressHelper().setBackgroundColor(getResources().getColor(R.color.success_stroke_color));
                                 break;
                         }
                     }
