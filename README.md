@@ -1,6 +1,6 @@
-Sweet Alert Dialog
+Smart Alert Dialog
 ===================
-SweetAlert for Android, a beautiful and clever alert dialog
+SmartAlert for Android, a beautiful and clever alert dialog
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sweet%20Alert%20Dialog-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1065)
 
@@ -14,7 +14,7 @@ Inspired by JavaScript [SweetAlert](http://tristanedwards.me/sweetalert)
 ![image](https://github.com/pedant/sweet-alert-dialog/raw/master/change_type.gif)
 
 ## Setup
-The simplest way to use SweetAlertDialog is to add the library as aar dependency to your build.
+The simplest way to use SmartAlertDialog is to add the library as aar dependency to your build.
 
 **Maven**
 
@@ -32,7 +32,7 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
     }
 
     dependencies {
-        compile 'cn.pedant.sweetalert:library:1.3'
+        compile 'com.parkly.smartalert:library:1.0.0'
     }
 
 ## Usage
