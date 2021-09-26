@@ -67,6 +67,7 @@ string app_name
 string dialog_cancel
 string dialog_default_title
 string dialog_ok
+style AppTheme.Base
 style alert_dialog
 style dialog_blue_button
 styleable Rotate3dAnimation rollType fromDeg toDeg pivotX pivotY

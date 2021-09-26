@@ -3,9 +3,11 @@
     package="com.parkly.SmartAlert" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="14"
         android:targetSdkVersion="30" />
 
-    <application android:label="@string/app_name" />
+    <application
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
 </manifest>

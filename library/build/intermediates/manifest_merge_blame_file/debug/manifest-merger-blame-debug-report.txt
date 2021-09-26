@@ -3,13 +3,16 @@
 3    package="com.parkly.SmartAlert" >
 4
 5    <uses-sdk
-6        android:minSdkVersion="9"
+6        android:minSdkVersion="14"
 6-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="30" />
 7-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
 8
-9    <application android:label="@string/app_name" />
-9-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:4:5-52
-9-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:4:18-50
-10
-11</manifest>
+9    <application
+9-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:4:5-5:67
+10        android:label="@string/app_name"
+10-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:4:18-50
+11        android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+11-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:5:9-65
+12
+13</manifest>

@@ -1,5 +1,7 @@
 com/parkly/SmartAlert/BuildConfig.java
  com.parkly.SmartAlert.BuildConfig
+com/parkly/SmartAlert/OptAnimationLoader.java
+ com.parkly.SmartAlert.OptAnimationLoader
 com/parkly/SmartAlert/SmartAlertDialog.java
  com.parkly.SmartAlert.SmartAlertDialog
  com.parkly.SmartAlert.SmartAlertDialog$1
@@ -14,5 +16,3 @@ com/parkly/SmartAlert/Rotate3dAnimation.java
 com/parkly/SmartAlert/SuccessTickView.java
  com.parkly.SmartAlert.SuccessTickView
  com.parkly.SmartAlert.SuccessTickView$1
-com/parkly/SmartAlert/OptAnimationLoader.java
- com.parkly.SmartAlert.OptAnimationLoader
