@@ -1,4 +1,4 @@
-cn.pedant.SweetAlert.sample
+com.parkly.SmartAlert.sample
 anim abc_fade_in
 anim abc_fade_out
 anim abc_slide_in_bottom

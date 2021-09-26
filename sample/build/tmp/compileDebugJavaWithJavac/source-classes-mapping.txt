@@ -1,8 +1,8 @@
+com/parkly/SmartAlert/sample/BuildConfig.java
+ com.parkly.SmartAlert.sample.BuildConfig
 com/parkly/SmartAlert/sample/SampleActivity.java
  com.parkly.SmartAlert.sample.SampleActivity
  com.parkly.SmartAlert.sample.SampleActivity$1
  com.parkly.SmartAlert.sample.SampleActivity$2
  com.parkly.SmartAlert.sample.SampleActivity$3
  com.parkly.SmartAlert.sample.SampleActivity$4
-cn/pedant/SweetAlert/sample/BuildConfig.java
- cn.pedant.SweetAlert.sample.BuildConfig

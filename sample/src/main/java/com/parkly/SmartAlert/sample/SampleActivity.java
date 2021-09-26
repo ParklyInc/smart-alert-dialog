@@ -7,8 +7,6 @@ import android.view.View;
 
 import com.parkly.SmartAlert.SmartAlertDialog;
 
-import cn.pedant.SweetAlert.sample.R;
-
 public class SampleActivity extends Activity implements View.OnClickListener {
 
     private int i = -1;

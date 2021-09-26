@@ -1,45 +1,42 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="cn.pedant.SweetAlert.sample"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
-6
-7    <uses-sdk
-7-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:6:5-72
-8        android:minSdkVersion="9"
-8-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:6:15-40
-9        android:targetSdkVersion="30" />
-9-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:6:41-70
-10
-11    <application
-11-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:7:5-15:19
-12        android:allowBackup="true"
-12-->[com.pnikosis:materialish-progress:1.0] /home/reza/.gradle/caches/transforms-3/b882d90fd0d7a4238bb378eb4c256883/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml:12:9-35
-13        android:debuggable="true"
-14        android:icon="@drawable/ic_launcher"
-14-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:7:51-87
-15        android:label="@string/app_name"
-15-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:7:18-50
-16        android:testOnly="true"
-17        android:theme="@android:style/Theme.NoTitleBar" >
-17-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:7:88-135
-18        <activity
-18-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:8:9-14:20
-19            android:name="com.parkly.SmartAlert.sample.SampleActivity"
-19-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:8:19-77
-20            android:label="@string/app_name" >
-20-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:9:19-51
-21            <intent-filter>
-21-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:10:13-13:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:11:17-68
-22-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:11:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:12:17-76
-24-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:12:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+3    package="com.parkly.SmartAlert.sample" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="9"
+6-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml
+8
+9    <application
+9-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:4:5-12:19
+10        android:allowBackup="true"
+10-->[com.pnikosis:materialish-progress:1.0] /home/reza/.gradle/caches/transforms-3/b882d90fd0d7a4238bb378eb4c256883/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml:12:9-35
+11        android:debuggable="true"
+12        android:icon="@drawable/ic_launcher"
+12-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:4:51-87
+13        android:label="@string/app_name"
+13-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:4:18-50
+14        android:testOnly="true"
+15        android:theme="@android:style/Theme.NoTitleBar" >
+15-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:4:88-135
+16        <activity
+16-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:5:9-11:20
+17            android:name="com.parkly.SmartAlert.sample.SampleActivity"
+17-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:5:19-77
+18            android:label="@string/app_name" >
+18-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:6:19-51
+19            <intent-filter>
+19-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:7:13-10:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:8:17-68
+20-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:8:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:9:17-76
+22-->/home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/sample/src/main/AndroidManifest.xml:9:27-74
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>
