@@ -19,9 +19,9 @@ The simplest way to use SmartAlertDialog is to add the library as aar dependency
 **Maven**
 
     <dependency>
-      <groupId>cn.pedant.sweetalert</groupId>
+      <groupId>com.parkly.SmartAlert</groupId>
       <artifactId>library</artifactId>
-      <version>1.3</version>
+      <version>1.0.0</version>
       <type>aar</type>
     </dependency>
 
@@ -47,7 +47,7 @@ show material progress
 
 ![image](https://github.com/pedant/sweet-alert-dialog/raw/master/play_progress.gif)
 
-You can customize progress bar dynamically with materialish-progress methods via **SweetAlertDialog.getProgressHelper()**:
+You can customize progress bar dynamically with materialish-progress methods via **SmartAlertDialog.getProgressHelper()**:
 - resetCount()
 - isSpinning()
 - spin()
@@ -80,21 +80,21 @@ A basic message：
 
 A title with a text under：
 
-    new SweetAlertDialog(this)
+    new SmartAlertDialog(this)
         .setTitleText("Here's a message!")
         .setContentText("It's pretty, isn't it?")
         .show();
 
 A error message：
 
-    new SweetAlertDialog(this, SweetAlertDialog.ERROR_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.ERROR_TYPE)
         .setTitleText("Oops...")
         .setContentText("Something went wrong!")
         .show();
 
 A warning message：
 
-    new SweetAlertDialog(this, SweetAlertDialog.WARNING_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.WARNING_TYPE)
         .setTitleText("Are you sure?")
         .setContentText("Won't be able to recover this file!")
         .setConfirmText("Yes,delete it!")
@@ -102,14 +102,14 @@ A warning message：
 
 A success message：
 
-    new SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.SUCCESS_TYPE)
         .setTitleText("Good job!")
         .setContentText("You clicked the button!")
         .show();
 
 A message with a custom icon：
 
-    new SweetAlertDialog(this, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.CUSTOM_IMAGE_TYPE)
         .setTitleText("Sweet!")
         .setContentText("Here's a custom image.")
         .setCustomImage(R.drawable.custom_img)
@@ -117,13 +117,13 @@ A message with a custom icon：
 
 Bind the listener to confirm button：
 
-    new SweetAlertDialog(this, SweetAlertDialog.WARNING_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.WARNING_TYPE)
         .setTitleText("Are you sure?")
         .setContentText("Won't be able to recover this file!")
         .setConfirmText("Yes,delete it!")
-        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+        .setConfirmClickListener(new SmartAlertDialog.OnSmartClickListener() {
             @Override
-            public void onClick(SweetAlertDialog sDialog) {
+            public void onClick(SmartAlertDialog sDialog) {
                 sDialog.dismissWithAnimation();
             }
         })
@@ -131,15 +131,15 @@ Bind the listener to confirm button：
 
 Show the cancel button and bind listener to it：
 
-    new SweetAlertDialog(this, SweetAlertDialog.WARNING_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.WARNING_TYPE)
         .setTitleText("Are you sure?")
         .setContentText("Won't be able to recover this file!")
         .setCancelText("No,cancel plx!")
         .setConfirmText("Yes,delete it!")
         .showCancelButton(true)
-        .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+        .setCancelClickListener(new SmartAlertDialog.OnSmartClickListener() {
             @Override
-            public void onClick(SweetAlertDialog sDialog) {
+            public void onClick(SmartAlertDialog sDialog) {
                 sDialog.cancel();
             }
         })
@@ -147,19 +147,19 @@ Show the cancel button and bind listener to it：
 
 **Change** the dialog style upon confirming：
 
-    new SweetAlertDialog(this, SweetAlertDialog.WARNING_TYPE)
+    new SmartAlertDialog(this, SmartAlertDialog.WARNING_TYPE)
         .setTitleText("Are you sure?")
         .setContentText("Won't be able to recover this file!")
         .setConfirmText("Yes,delete it!")
-        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+        .setConfirmClickListener(new SmartAlertDialog.OnSmartClickListener() {
             @Override
-            public void onClick(SweetAlertDialog sDialog) {
+            public void onClick(SmartAlertDialog sDialog) {
                 sDialog
                     .setTitleText("Deleted!")
                     .setContentText("Your imaginary file has been deleted!")
                     .setConfirmText("OK")
                     .setConfirmClickListener(null)
-                    .changeAlertType(SweetAlertDialog.SUCCESS_TYPE);
+                    .changeAlertType(SmartAlertDialog.SUCCESS_TYPE);
             }
         })
         .show();
