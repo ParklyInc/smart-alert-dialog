@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:2:1-32
+		INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
+		INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:4:1-26
+	xmlns:android
+		ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:3:1-24
+uses-sdk
+ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:1-68
+INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:1-68
+INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:1-68
+INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:1-68
+INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:1-68
+	android:targetSdkVersion
+		ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:37-66
+		INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
+		INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:6:11-36
+		INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
+		INJECTED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml
+application
+ADDED from /home/reza/Documents/StudioProjects/aaaTutorialProject/smart-alert-dialog/library/src/main/AndroidManifest.xml:8:1-16
