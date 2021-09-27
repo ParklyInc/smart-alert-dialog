@@ -3,8 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="library/src/main/res/layout/alert_dialog.xml" value="0.1671875" />
-        <entry key="sample/src/main/res/layout/sample_activity.xml" value="0.1671875" />
+        <entry key="dialog/src/main/res/layout/alert_dialog.xml" value="0.1671875" />
       </map>
     </option>
   </component>
